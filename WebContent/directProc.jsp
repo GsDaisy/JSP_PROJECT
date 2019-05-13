@@ -71,7 +71,10 @@ If you follow the voice and video,<br>the wearable band will recognize the corre
 <img alt="" src="img/9.jpg" style="margin-left:-210px;" width="1280px"><br><br><br>
 <div style="font-size: 35px;color: #5B7EE0;font-weight: bold;margin-left: -40px;"><em>Until now,<br>we're going to be the leader of Silver Health Care Industry.<br>
 It was Silver Now. Thank you.</em><br>
-<br><a href="#up"><img alt="" src="img/up.gif"></a></div>
+<br><a href="#up"><img alt="" src="img/up.gif"></a><br><br>
+<div style="margin-left: -400px"><jsp:include page="test.jsp" flush="false"/></div>
+
+</div>
 <br><br><br><br><br><br><br><br><br>
 </div>
 </body>

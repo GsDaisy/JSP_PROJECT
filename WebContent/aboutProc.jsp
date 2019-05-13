@@ -30,7 +30,6 @@
 		display: inline-block;
 		font-size: 28px;
 		float: none;
-
 	}
 	#llast{
 		color: #90ddf7;
@@ -120,11 +119,27 @@ function search() {
 	So why should 33 percent of old life be spent on illness?</div>
 	<br><br><br><br><br><br>
 	
+	<div id="about1_3">
+	<p>Lack of exercise is a major cause of chronic diseases</p><br><br><br>
+	Chronic diseases are major killers in the modern era. Physical inactivity is a<br>primary cause of most chronic diseases.<br>And, physical activity/exercise is examined as primary prevention against<br>35 chronic conditions<br><br><br>
+[Accelerated biological aging/premature death, low cardiorespiratory fitness<br>(VO2max), sarcopenia, metabolic syndrome, obesity, insulin resistance,<br>prediabetes, type 2 diabetes, non-alcoholic fatty liver disease, coronary heart<br>disease, peripheral artery disease, hypertension, stroke, congestive heart<br>failure, endothelial dysfunction, arterial dyslipidemia, hemostasis, deep vein<br>thrombosis, cognitive dysfunction, depression and anxiety, osteoporosis,<br>osteoarthritis, balance, bone fracture/falls, rheumatoid arthritis, colon cancer,<br>breast cancer, endometrial cancer, gestational diabetes, preeclampsia,<br>polycystic ovary syndrome, erectile dysfunction, pain, diverticulitis, constipation,<br>and gallbladder diseases].
+<br><br><br><br>
+ In summary, the body rapidly maladapts to insufficient physical activity,<br>
+ and if continued, results in substantial decreases in both total and quality years of life. Taken together, conclusive evidence exists that physical inactivity is one important cause of<br>
+ most chronic diseases. In addition, physical activity primarily prevents, or delays, chronic diseases, implying that chronic disease need not be an inevitable outcome during life.
 	
 	
+	<br><br><br><br><br>
+	<img src="img/about_over.gif" style="margin-left: -50px;" width="1100px"><br>
+	Also, 89 percent of senior citizens have chronic diseases<br>such as high blood pressure and diabetes and arthritis, which are the causes of lack of exercise, and the cost of care for senior citizens is increasing.
+<br><br>
+This tells the elderly exercise has become a must-have problem.
+<br><br>
+<b>So we developed "Silver Now" to solve this problem.</b><br><br><br><br><br><br><br>
+	</div>
 	<div id="llast">
 	From now on, let me introduce you to<br>
-	the best app, "Silver Now."
+	the best app, "Silver Now."<br><br>
 	</div>
 	
 	<div>

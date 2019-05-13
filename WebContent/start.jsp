@@ -64,7 +64,7 @@
   transition-delay: 0.4s;
   position: absolute;
   right: 30px;
-  bottom: 30px;
+  bottom: 40px;
     width:100px;
   height:100px;
   background: #FCF8BD;
@@ -132,8 +132,8 @@
   width: 100px;
 }
 .menu-button:hover a:nth-child(3) {
-  right: 65px;
-  bottom: 65px;
+  right: 35px;
+  bottom: 60px;
     width:100px;
   height:100px;
 }
@@ -146,7 +146,7 @@
   background: #FCF8BD;
 }
 .menu-button:hover a:nth-child(4) {
-  right: 0px;
+  right: -40px;
       width:100px;
   height:100px;
   bottom: 80px;
@@ -181,7 +181,7 @@
 }
 
 .menu-button:hover a:nth-child(7) {
-  right: -80px;
+  right: -120px;
       width:100px;
   height:100px;
   bottom: 80px;
@@ -221,12 +221,12 @@ color: #5B7EE0;
     -->
 
     <div class="menu-button" style="/* left: -500px; top: -500px;position: relative; */float: left"><img src="img/1.PNG" width="200px">
-	<a href="#"><img src="img/start1.gif" width="100px"></a>
-	<a href="#"></a>
-	<a href="#"></a>
-	<a href="#"><img src="img/github.png" width="50px"></a>
-	<a href="#"><i class="zmdi zmdi-google-plus"></i></a>
-	<a href="#"></a>
+	<a href="main.jsp"><img src="img/start1.gif" width="100px"></a>
+	<a href="about.jsp"><img src="img/start2.gif" width="100px"></a>
+	<a href="real.jsp"><img src="img/start3.gif" width="100px"></a>
+	<a href="https://github.com/Se-Yeong712/Slivernow"><img src="img/github.png" width="50px"></a>
+	<a href="mailto:s2017s12@e-mirim.hs.kr"><i class="zmdi zmdi-google-plus"></i></a>
+	<a href="direct.jsp"><img src="img/start4.gif" width="100px"></a>
 	</div>
 
     

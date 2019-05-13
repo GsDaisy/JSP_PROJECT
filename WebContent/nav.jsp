@@ -68,7 +68,7 @@ ul {
 
 
 }
-ul li a{text-decoration:none; display:block;line-height: 30px;text-align:center;background-color: #fffde6;} 
+ul li a{text-decoration:none; display:block;line-height: 30px;text-align:center;} 
 
 li a {
     font-size: 20px;
@@ -82,6 +82,7 @@ li a {
 li a:hover {
   color:#5B7EE0;
 }
+
     
 .one > li{float:left;}   /*1단 메뉴를 일렬로 늘어놓기 */
 .one ul{display:none;}  /*2단, 3단 메뉴를 숨기기 */
@@ -91,24 +92,47 @@ li a:hover {
 
 
 
-.two{position:absolute;left:250px; top: 29px;}  /*2단 메뉴 절대 위치*/
-.three{position:absolute;left:80px; top: 60px; }  /*3단 메뉴 절대 위치*/
+.two{position:absolute;left:240px; top: 49px;}  /*2단 메뉴 절대 위치*/
+.three{position:absolute;left:120px; top: 2px; }  /*3단 메뉴 절대 위치*/
 
 
 
 
 .two2{position:absolute;left:700px; top: 29px;}  /*2단 메뉴 절대 위치*/
 .three2{position:absolute;left:750px; top: 90px; }  /*3단 메뉴 절대 위치*/
-.four2{position:absolute;left:780px;top:100px;}
+.four2{position:absolute;left:100px;top:60px;}
+
+li:hover{
+background-color: rgba(255,253,217,0.5);
+}
 
 #navall{
 position:relative;
 }
 #navall:before, #navall:after{content: " "; display: block; clear: both;}
 #navall:after{clear: both;} 
+
+#aaa{
+	font-size: 12px;
+}
 </style>
 </head>
 <body style="margin-top: 50px; margin-left: 200px;margin-right: 200px;font-family: 'PT Sans', sans-serif;">
+
+
+
+<div id="aaa" style="margin-left: 700px;">
+<%
+	if((session.getAttribute("id")==null) || (session.getAttribute("id").equals(""))){
+		
+	}else{
+	String i = (String)session.getAttribute("id");
+	if(!(i.equals(""))||!(i==null)){%>
+		<%=i %>님 환영합니다.&nbsp;
+	<% }}
+	%>
+<a href="login.jsp">Login</a>&nbsp;&nbsp;<a href="logout.jsp">Withdrawal</a>&nbsp;&nbsp;<a href="join.jsp">Sign Us</a></div>
+
 <div id="navall">
 
 <div id="move2"></div>
@@ -120,7 +144,7 @@ position:relative;
 <ul class="one">
     <li><a href="main.jsp">HOME</a></li>
     
-    <li class="here"><a href="about.jsp">Exercise in the Elderly?</a>
+    <!-- <li class="here"><a href="about.jsp">Exercise in the Elderly?</a>
     	<ul class="two">
     		<li><a href="#">sub1</a></li>
     		<li><a href="#">sub2</a></li>
@@ -137,15 +161,11 @@ position:relative;
 	    		</ul>
     		</li>
     	</ul>
-    </li>
-    
-    <li><a href="real.jsp">About SILVER NOW</a></li>
-    
-
+    </li> -->
     <li class="please"><a href="direct.jsp">Direction</a>
-    	<ul class="two2">
+    	<ul class="two">
     		<li><a href="#">Scenario</a>
-    		    	<ul class="three2">
+    		    	<ul class="three">
 	    				<li><a href="#">Start</a></li>
 	    				<li><a href="#">Exercise</a>
 	    					<ul class="four2">
@@ -159,6 +179,12 @@ position:relative;
     		<li><a href="#">Thank you</a></li>
     	</ul>
     </li>
+    
+    
+    <li><a href="real.jsp">About SILVER NOW</a></li>
+    
+	<li class="here"><a href="about.jsp">Exercise in the Elderly?</a></li>
+    
 </ul>
 
 </div>
